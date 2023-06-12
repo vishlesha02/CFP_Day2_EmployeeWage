@@ -12,7 +12,7 @@ namespace EmployeeWage
         public const int IS_FULL_TIME = 2;
         public const int EMP_RATE_PER_HOUR = 20;
         public const int NUMBER_OF_WORKING_DAYS = 20;
-        static void Main(string[] args)
+        public void computeWage()
         {
             int empHrs = 0;
             int empWage = 0;
@@ -44,5 +44,12 @@ namespace EmployeeWage
             }
             Console.WriteLine($"Total Employee Wage : {totalEmpWage}");
         }
+
+        public static void Main(String[] args)
+               {
+                     Program c = new Program();
+                     c.computeWage();
+
+               }
     }
 }
