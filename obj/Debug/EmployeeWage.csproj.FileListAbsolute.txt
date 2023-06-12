@@ -1,0 +1,8 @@
+C:\Users\DELL\source\repos\EmployeeWage\EmployeeWage\bin\Debug\EmployeeWage.exe.config
+C:\Users\DELL\source\repos\EmployeeWage\EmployeeWage\bin\Debug\EmployeeWage.exe
+C:\Users\DELL\source\repos\EmployeeWage\EmployeeWage\bin\Debug\EmployeeWage.pdb
+C:\Users\DELL\source\repos\EmployeeWage\EmployeeWage\obj\Debug\EmployeeWage.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\EmployeeWage\EmployeeWage\obj\Debug\EmployeeWage.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\source\repos\EmployeeWage\EmployeeWage\obj\Debug\EmployeeWage.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\EmployeeWage\EmployeeWage\obj\Debug\EmployeeWage.exe
+C:\Users\DELL\source\repos\EmployeeWage\EmployeeWage\obj\Debug\EmployeeWage.pdb
