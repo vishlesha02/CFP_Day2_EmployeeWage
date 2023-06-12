@@ -10,11 +10,9 @@ namespace EmployeeWage
     {
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
-        public const int EMP_RATE_PER_HOUR = 20;
-        public const int NUMBER_OF_WORKING_DAYS = 20;
-        public const int MAX_HR_IN_MONTH = 100;
-        public void ComputeWage()
-        {
+      
+        public void ComputeWage(String Company, int EMP_RATE_PER_HOUR, int NUMBER_OF_WORKING_DAYS, int MAX_HR_IN_MONTH)
+        { 
             int empHrs = 0;
             int empWage = 0;
             int totalEmpWage = 0;
@@ -49,14 +47,16 @@ namespace EmployeeWage
                 day++;
             
             }
-            Console.WriteLine($"Total Employee Wage : {totalEmpWage}");
+            Console.WriteLine($"Total Employee Wage for {Company} : {totalEmpWage}");
         }
 
         public static void Main(String[] args)
-               {
-                     Program c = new Program();
-                     c.ComputeWage();
+        {
+            Program c = new Program();
+            c.ComputeWage("Jio", 20, 3, 12);
+            c.ComputeWage("Big-Baazar", 30, 2, 11);
 
-               }
+
+        }
     }
 }
